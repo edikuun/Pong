@@ -334,7 +334,7 @@ public class BigBang extends javax.swing.JFrame {
                 System.exit(0);
             }
         } else {
-            int rep = JOptionPane.showConfirmDialog(this, "Your score is " + playerScore + "\n PLAYER WIN\n WOULD YOU LIKE TO RESTART?", "GAME OVER", JOptionPane.YES_NO_OPTION);
+            int rep = JOptionPane.showConfirmDialog(this, "Your score is " + playerScore + "\n COMPUTER WIN\n WOULD YOU LIKE TO RESTART?", "GAME OVER", JOptionPane.YES_NO_OPTION);
             if (rep == JOptionPane.YES_OPTION){
                 restart();
             }
